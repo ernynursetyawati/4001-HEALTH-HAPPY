@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Health&amp;Happy</string>
+    <string name="health_happy"><![CDATA[Health&Happy]]></string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">LOGIN</string>
+    <string name="logo">logo</string>
+</resources>
