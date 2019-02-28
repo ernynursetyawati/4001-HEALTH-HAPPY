@@ -5,4 +5,5 @@
     <string name="password">password</string>
     <string name="login">LOGIN</string>
     <string name="logo">logo</string>
+    <string name="welcome">welcome</string>
 </resources>
