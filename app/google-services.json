@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "583736946339",
+    "firebase_url": "https://healthyhappy-c8beb.firebaseio.com",
+    "project_id": "healthyhappy-c8beb",
+    "storage_bucket": "healthyhappy-c8beb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583736946339:android:00a460e9cef18145",
+        "android_client_info": {
+          "package_name": "com.example.healthhappy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583736946339-3u7ca3a97375gnag5c8ugv2c70bhnh9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthhappy",
+            "certificate_hash": "af1e083aae8afdc205faf2bc682b857517ab2d21"
+          }
+        },
+        {
+          "client_id": "583736946339-2i7makun5eg9k23tsq4gj0shmfr40goe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthhappy",
+            "certificate_hash": "8e9a56d75eb419572cf7288dcdb1b29770806b22"
+          }
+        },
+        {
+          "client_id": "583736946339-8qnactasepbg3sthd4ruq4abb5t86tbi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthhappy",
+            "certificate_hash": "158d3f0015338cd9fa50a13dc0f16ef80dbb8475"
+          }
+        },
+        {
+          "client_id": "583736946339-9obvb2ubteal0jrh7ui4tsls4h89a3mc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEkb3lCAiMHdDiokCAFtOJBZIImgU5kMA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583736946339-9obvb2ubteal0jrh7ui4tsls4h89a3mc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
