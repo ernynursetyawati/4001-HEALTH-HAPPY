@@ -24,5 +24,10 @@
     <color name="grey">#E7E7E7</color>
     <color name="blue_grey">#607D8B</color>
     <color name="black">#000000</color>
+    <color name="light_brown">#906F63</color>
+    <color name="peach">#FEA176</color>
+    <color name="new_yellow">#EDEA93</color>
+    <color name="new_green">#99E9A3</color>
+
 
 </resources>

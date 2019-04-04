@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/peach"
+    tools:context=".DetailDiet">
+
+    <TextView
+        android:id="@+id/diet_mayo"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
+        android:text="@string/diet_mayo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/penjelasan"
+        android:layout_width="0dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="297dp"
+        android:background="@color/lime"
+        android:gravity="center"
+        android:text="@string/diet_mayo_adalah_suatu_jenis_diet_yang_terutama_membatasi_konsumsi_karbohidrat_dan_garam_selama_13_hari_diet_mayo_dapat_dilakukan_dalam_jangka_panjang_aturan_dalam_melaksanakan_diet_mayo_yaitu_benar_benar_tidak_makan_garam_atau_makanan_asin_sama_sekali_selama_hampir_2_minggu_dan_memperbanyak_minum_air_putih_diet_mayo_adalah_suatu_jenis_diet_yang_terutama_membatasi_konsumsi_karbohidrat_dan_garam_selama_13_hari_diet_mayo_dapat_dilakukan_dalam_jangka_panjang_aturan_dalam_melaksanakan_diet_mayo_yaitu_benar_benar_tidak_makan_garam_atau_makanan_asin_sama_sekali_selama_hampir_2_minggu_dan_memperbanyak_minum_air_putih"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/diet_mayo"
+        app:layout_constraintVertical_bias="0.381" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="81dp"
+        android:background="@color/new_green"
+        android:text="@string/program_diet"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/penjelasan" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:background="@color/new_green"
+        android:text="@string/resep_makanan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/penjelasan" />
+    //masih ada yang salah
+</android.support.constraint.ConstraintLayout>
