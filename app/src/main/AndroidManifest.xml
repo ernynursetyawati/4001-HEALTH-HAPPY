@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".HalamanWorkout"></activity>
         <activity android:name=".DetailDietOCD" />
         <activity android:name=".DetailDietKeto" />
         <activity android:name=".DetailDiet" />
