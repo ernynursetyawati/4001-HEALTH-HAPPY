@@ -12,4 +12,8 @@
     <string name="diet_mayo">Diet Mayo</string>
     <string name="program_diet">Program Diet</string>
     <string name="resep_makanan">Resep Makanan</string>
+    <string name="diet_keto_menekankan_pada_asupan_tinggi_lemak_dan_rendah_karbohidrat_diet_ini_membuat_tubuh_yang_terbiasa_menggunakan_gula_sebagai_energi_berubah_menggunakan_lemak_sebagai_energi_yang_disebut_ketosis_kriteria_diet_keto_adalah_konsumsi_lemak_60_80_persen_konsumsi_protein_20_30_persen_konsumsi_karbohidrat_5_10_persen">Diet keto menekankan pada asupan tinggi lemak dan rendah karbohidrat. Diet ini membuat tubuh yang terbiasa menggunakan gula sebagai energi berubah menggunakan lemak sebagai energi yang disebut ketosis. Kriteria diet keto adalah Konsumsi lemak 60-80 persen, Konsumsi protein 20-30 persen, Konsumsi karbohidrat 5-10 persen</string>
+    <string name="diet_ocd_merupakan_metode_diet_atau_puasa_dengan_menggunakan_sistem_jendela_makan_jendela_makan_sendiri_adalah_lamanya_waktu_ketika_diperbolehkan_makan_waktu_makannya_berbeda_beda_dan_bebas_sesuai_pilihan_ada_yang_dimulai_dengan_waktu_8_jam_6_jam_hingga_4_jam_saja_dalam_sehari">Diet OCD merupakan metode diet atau puasa dengan menggunakan sistem jendela makan. Jendela makan sendiri adalah lamanya waktu ketika diperbolehkan makan. Waktu makannya berbeda-beda dan bebas sesuai pilihan, ada yang dimulai dengan waktu 8 jam, 6 jam, hingga 4 jam saja dalam sehari.</string>
+    <string name="diet_ocd">Diet OCD</string>
+    <string name="diet_keto">Diet Keto</string>
 </resources>

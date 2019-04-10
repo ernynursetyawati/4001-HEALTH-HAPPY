@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/peach"
-    tools:context=".DetailDiet">
+    tools:context=".DetailDietKeto">
 
     <TextView
         android:id="@+id/diet_mayo"
@@ -16,7 +16,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="150dp"
         android:layout_marginRight="150dp"
-        android:text="@string/diet_mayo"
+        android:text="@string/diet_keto"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,9 +32,9 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:layout_marginBottom="297dp"
-        android:background="@color/new_yellow"
+        android:background="#F1CAA3"
         android:gravity="center"
-        android:text="@string/diet_mayo_adalah_suatu_jenis_diet_yang_terutama_membatasi_konsumsi_karbohidrat_dan_garam_selama_13_hari_diet_mayo_dapat_dilakukan_dalam_jangka_panjang_aturan_dalam_melaksanakan_diet_mayo_yaitu_benar_benar_tidak_makan_garam_atau_makanan_asin_sama_sekali_selama_hampir_2_minggu_dan_memperbanyak_minum_air_putih_diet_mayo_adalah_suatu_jenis_diet_yang_terutama_membatasi_konsumsi_karbohidrat_dan_garam_selama_13_hari_diet_mayo_dapat_dilakukan_dalam_jangka_panjang_aturan_dalam_melaksanakan_diet_mayo_yaitu_benar_benar_tidak_makan_garam_atau_makanan_asin_sama_sekali_selama_hampir_2_minggu_dan_memperbanyak_minum_air_putih"
+        android:text="@string/diet_keto_menekankan_pada_asupan_tinggi_lemak_dan_rendah_karbohidrat_diet_ini_membuat_tubuh_yang_terbiasa_menggunakan_gula_sebagai_energi_berubah_menggunakan_lemak_sebagai_energi_yang_disebut_ketosis_kriteria_diet_keto_adalah_konsumsi_lemak_60_80_persen_konsumsi_protein_20_30_persen_konsumsi_karbohidrat_5_10_persen"
         android:textAppearance="@style/TextAppearance.AppCompat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
