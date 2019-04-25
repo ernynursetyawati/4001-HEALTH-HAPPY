@@ -11,3 +11,4 @@ public class DetailDietKeto extends AppCompatActivity {
         setContentView(R.layout.activity_detail_diet_keto);
     }
 }
+///////
