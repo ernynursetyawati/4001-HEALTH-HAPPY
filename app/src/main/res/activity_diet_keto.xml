@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Diet.DietKeto">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="24sp"
+        android:text="Diet Keto"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif-light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="109dp"
+        android:background="@color/colorPrimary"
+        android:lineSpacingExtra="8sp"
+        android:text="Program"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:onClick="intentKeto"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="264dp"
+        android:layout_height="138dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="8sp"
+        android:text="Metode diet dengan menghindari konsumsi makanan berkarbonhidrat dan gula secara berlebih dan menggantinya dengan makanan yang mengandung lemak sehat, protein."
+        android:textColor="@color/pink"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="313dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="163dp"
+        android:layout_height="143dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="316dp"
+        app:srcCompat="@drawable/warning" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="20dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Kacang - Kacangan"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="210dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Umbi - umbian"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView7"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="5dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Minuman Alkohol"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView8"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="5dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Makanan kaya gula"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

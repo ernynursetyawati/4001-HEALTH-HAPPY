@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Diet.DietMayo">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="179dp"
+        android:background="@color/colorPrimary"
+        android:lineSpacingExtra="8sp"
+        android:onClick="intentMayo"
+        android:text="Program"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/textView31"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="5dp"
+        android:lineSpacingExtra="8sp"
+        android:text="JunkFood"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@id/textView32"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="5dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Minuman Soda, Alkohol"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView35"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="5dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Kopi"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView30"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="200dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Makanan tinggi lemak"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="199dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_below="@id/textView34"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="5dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Nasi Putih"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="163dp"
+        android:layout_height="143dp"
+        android:layout_below="@id/textView30"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="43dp"
+        app:srcCompat="@drawable/warning" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="260dp"
+        android:layout_height="85dp"
+        android:layout_below="@id/textView29"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Metode diet dengan cara membatasi asupan garam dan karbohidrat dan mengedepankan diet gizi seimbang."
+        android:textColor="@color/pink"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="Diet Mayo"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif-light" />
+
+</RelativeLayout>

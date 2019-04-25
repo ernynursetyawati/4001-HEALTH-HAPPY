@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Diet.DietOcd">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="213dp"
+        android:background="@color/colorPrimary"
+        android:lineSpacingExtra="8sp"
+        android:onClick="intentOCD"
+        android:text="Program"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@id/textView45"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="2dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Buah Berlebih"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@id/textView46"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="190dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Makanan Ringan"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="199dp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@id/textView47"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="2dp"
+        android:lineSpacingExtra="8sp"
+        android:text="JunkFood / Mie Instan"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535"
+        tools:layout_editor_absoluteX="199dp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@id/textView43"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="45dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Kacang - Kacangan"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57"
+        tools:layout_editor_absoluteX="199dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="163dp"
+        android:layout_height="143dp"
+        android:layout_below="@id/textView43"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52"
+        app:srcCompat="@drawable/warning" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="300dp"
+        android:layout_height="121dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView24"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="8sp"
+        android:text="Metode diet dengan Sistem jendela makan yaitu mengistirahatkan perut dengan cara puasa, sehari delapan atau enam jam atau tergantung pada jenis pemrograman jendela makan apa yang Anda pilih."
+        android:textColor="@color/pink"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="24sp"
+        android:text="Diet OCD"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif-light" />
+</RelativeLayout>
