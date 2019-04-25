@@ -6,4 +6,6 @@
     <string name="login">LOGIN</string>
     <string name="logo">logo</string>
     <string name="welcome">welcome</string>
+    <string name="email">email</string>
+    <string name="create_new_account">create new account</string>
 </resources>
